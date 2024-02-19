@@ -3,7 +3,7 @@ services:
 - name: vote
   project: vote/vote.csproj
 - name: worker
-  repository: https://github.com/drakon660/TyeMultiRepoWorker
+  repository: https://github.com/tye-v2/tests-multi-repo-worker.git
 - name: redis
   image: redis
   bindings:
